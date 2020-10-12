@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Author:  Kurt Dankovich
+Class:   Web & Distributed Programming
+Project: Map Mania v1
+Session: 3 oclock
+Description: This is the first version of Map Mania that I am creating for Programming Assignment 3.
+-->
+<html lang="en">
+<head>
+
+<title>Kurt Dankovich Map Mania</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="map-mania-lite.css">
+<script src="map-mania-lite.js"></script>
+<style>
+#myMapID{
+	height: 100%;
+	width: 100%;
+}
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+
+
+}
+</style>
+
+
+</head>
+
+<div class="header">
+  <h1>Map Mania</h1>
+  <h2>First Version</h2>
+  
+
+</div>
+  
+ <body onload="initApplication()">
+ <h2>Kurt's Top 10 Favorite Places</h2>
+ 
+ <div id="myMapID"></div>
+ <script defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmnWAioBuyKxsvV4SQGFeFDJt_mT2ToUQ&callback=initMap">
+</script>
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+</body>
+</html>
