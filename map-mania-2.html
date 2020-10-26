@@ -1,0 +1,35 @@
+<!--
+Author: Kurt Dankovich
+Class: Web & Distributed Programming
+Project: Map Mania V2
+Description: Second version of Map Mania
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+    <title>Map Mania V2</title>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmnWAioBuyKxsvV4SQGFeFDJt_mT2ToUQ&callback=initMap">
+</script>
+    <link rel="stylesheet" type="text/css" href="map-mania-2.css" />
+    <script src="map-mania-2.js"></script>
+  </head>
+  <div class="header">
+  <h1>Kurt's Map Mania</h1>
+  <h2>Second Version</h2>
+  
+
+</div>
+  <body onload="initGS()">
+    
+	
+    <a href="map-mania-2-rules.html" target="_blank">Instructions</a> <br><br>
+    Hint: <input id="hint-id" type="text" value="" size="100" disabled><br><br>
+    Score: <input id="score-id" type="text" value="" size="50" disabled><br><br>
+    <p ondblclick="cheat()">Cheat Button</p>
+    <div id="map"></div>
+  </body>
+</html>
